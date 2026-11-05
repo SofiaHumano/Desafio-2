@@ -51,7 +51,7 @@ class _TarjetaScreenState extends State<TarjetaScreen> {
             children: [
               const CircleAvatar(
                 radius: 60,
-                backgroundImage: NetworkImage('https://i.pravatar.cc/300'),
+                backgroundImage: AssetImage('assets/foto.png'),
               ),
               const SizedBox(height: 20),
               Text(
